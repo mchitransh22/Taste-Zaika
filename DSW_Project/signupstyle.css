@@ -1,0 +1,112 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    font-family: sans-serif; 
+    background-image: url(bgwall.jpg); 
+    background-size: cover;
+    background-position:center;
+} 
+.image{
+
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+.home
+{
+    position:absolute;
+    top: 45px;
+    left: 125px;
+    z-index: 2;
+}
+.sigiin{  
+        width:300px;
+        box-shadow:0 0 10px 0 rgba(0 0 0 0.3);
+        padding: 20px;
+        margin:8% auto 0;
+        text-align: center;
+}
+.restraunt{
+    width:700px;
+    box-shadow:0 0 10px 0 rgba(0 0 0 0.3);
+    padding: 20px;
+    margin:1% auto 0;
+    text-align: center;
+
+}
+.sigiin h1{
+    color: hotpink;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: cursive;
+}
+.restraunt h2{
+    color: hotpink;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family: cursive;
+}
+.restraunt h3{
+    color: orange;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-family: cursive;
+    text-align: left;
+}
+.restraunt h4{
+    color: orange;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-family: cursive;
+    float: right;
+}
+.restraunt p{
+    color: coral;
+    text-align: left;
+    font-weight: bolder;
+}
+.sigiin p{
+    color:yellow;
+}
+.sigiin a{
+    color:yellow;
+}
+.input-box{
+border-radius: 20px;
+ padding: 10px; 
+margin: 10px 0;
+width: 100%;
+border:1px solid #999;
+outline: none;
+}
+button{
+    color:rgb(109, 22, 190);
+    
+    width :100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 10px 0;
+    border:none;
+    outline:none;
+    cursor:pointer;
+}
+p
+{
+    color: rgb(136, 219, 20);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+h1
+{
+    color: blueviolet;
+    text-shadow: 10px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
